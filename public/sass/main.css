@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap");
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #D0D6F9;
+  font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  font-family: "Bellefair", sans-serif;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 15rem;
+}
+
+h2 {
+  font-size: 10rem;
+}
+
+h3 {
+  font-size: 5.6rem;
+}
+
+h4 {
+  font-size: 3.2rem;
+}
+
+h5 {
+  font-size: 2.8rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  letter-spacing: 4.5px;
+  color: #D0D6F9;
+  text-transform: uppercase;
+}
+
+.explore h4 {
+  color: #0B0D17;
+  font-size: 3.2rem;
+  font-family: "Bellefair", sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+p {
+  line-height: 3rem;
+}
+
+.hero p {
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+
+.landing {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.explore {
+  height: 27.4rem;
+  width: 27.4rem;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+.explore:hover {
+  cursor: pointer;
+}
+
+.destination {
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.destination-container {
+  width: 50%;
+}
+
+.destination-list {
+  display: flex;
+  padding-top: 5rem;
+}
+
+.destination-name {
+  margin-right: 5rem;
+  font-size: 1.6rem;
+}
+
+.crew {
+  background-image: url("../assets/crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.technology {
+  background-image: url("../assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  height: 9.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5.5rem;
+  margin-top: 4rem;
+}
+
+.nav-bar {
+  height: 100%;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(2rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 10rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-link {
+  color: #FFFFFF;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.27rem;
+  text-transform: uppercase;
+}
+
+.nav-bar ul li a span {
+  font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding-top: 12.5rem;
+}
+
+.hero-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-top: 18rem;
+}
+
+.container {
+  margin: 7.6rem 16.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */

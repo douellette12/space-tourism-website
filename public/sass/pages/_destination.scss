@@ -1,0 +1,19 @@
+.destination {
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.destination-container {
+    width: 50%;
+}
+
+.destination-list {
+    display: flex;
+    padding-top: 5rem;
+}
+
+.destination-name {
+    margin-right: 5rem;
+    font-size: 1.6rem;
+}
