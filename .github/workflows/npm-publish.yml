@@ -17,7 +17,7 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm test
-      - ru: npm install -g sass
+      - run: npm install -g sass
 
   publish-npm:
     needs: build
