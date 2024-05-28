@@ -182,14 +182,13 @@ nav {
   width: 40%;
   display: flex;
   justify-content: center;
-  padding-top: 12.5rem;
 }
 
 .hero-right {
   width: 50%;
   display: flex;
   justify-content: center;
-  padding-top: 18rem;
+  padding-top: 10rem;
 }
 
 .container {
